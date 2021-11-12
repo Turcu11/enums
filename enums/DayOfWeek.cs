@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace enums
 {
-    public enum DayOfWeek
+    public enum DayOfWeek : byte
     {
         Monday,
         Thuesday,

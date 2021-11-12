@@ -8,9 +8,9 @@ namespace enums
         {
             DayOfWeek today = DayOfWeek.Friday;
             int todayAsInt = (int)today;
+
             Console.WriteLine(todayAsInt);
             Console.WriteLine(today);
-
         }
     }
 }
