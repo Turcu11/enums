@@ -6,7 +6,11 @@ namespace enums
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DayOfWeek today = DayOfWeek.Friday;
+            int todayAsInt = (int)today;
+            Console.WriteLine(todayAsInt);
+            Console.WriteLine(today);
+
         }
     }
 }
